@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>jindal steel power</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hiddenMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="COMMUNITY.html">COMMUNITY</a></li>
+                    <li><a href="CONTACT US.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CONTACT US<h1>
+</section>
+
+<!--------Contact US------>
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14015.963063710728!2d77.187642!3d28.57004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1befce7745020df9!2sJindal%20Centre%20Office!5e0!3m2!1sen!2sin!4v1642075553551!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Jindal Centre 12, Bhikaiji Cama Place</h5>
+                    <p>New Delhi - 110 066, INDIA</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>91 11 26188340-50 | 41462000</h5>
+                    <p>New Delhi,INDIA</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@jindalsteel.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+
+        </div>
+        
+    </div>
+</section>
+
+
+
+
+
+<!------Footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>JSPL is an industrial powerhouse with a dominant presence in steel, power, mining and infrastructure sectors. Led by Mr Naveen Jindal,<br>the company’s enviable success story has been scripted essentially by its resolve to innovate, set new standards,<br>enhance capabilities,enrich lives and to ensure that it stays true to its cherished value system.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+    <p>Jindal Steel & Power Limited</p>
+</section>
+
+<!-------JavaScript for toggle menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
